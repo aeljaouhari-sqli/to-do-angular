@@ -1,0 +1,7 @@
+<h1>Hi {{ name }}</h1>
+<p>Enter items into the list below</p>
+
+{{ itemValue }}
+<br />
+<input type="text" placeholder="enter something" [(ngModel)]="itemValue" />
+<button (click)="handleAddItem()">Add</button>

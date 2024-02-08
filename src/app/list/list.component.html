@@ -1,0 +1,5 @@
+<h3>Your list man</h3>
+<ul class="items-list">
+  <li appLinethrough *ngFor="let item of lists">{{ item }}</li>
+</ul>
+<button (click)="clearDoneItems()">Clear all done items</button>
